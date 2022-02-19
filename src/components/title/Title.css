@@ -1,0 +1,42 @@
+.title{
+    max-width: 1800px;
+    padding-top: 75px;
+    padding-left: 75px;
+    margin: 0 auto;
+}
+.heading{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 35px;
+    letter-spacing: 5px;
+    position: fixed;
+    z-index: 1;
+
+}
+.name{
+    color: #181D31;
+    text-decoration: none;
+}
+ .h1_fadeOut{
+animation: fadeOut  1s ;
+animation-fill-mode: both
+}
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+ }
+.h1{
+    margin-top: 75px;
+    font-family: 'Raleway Dots', cursive;
+    color:#678983;
+}
+.title .description{
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-decoration: none;
+    color: #678983;
+}
+@media screen and (max-width: 500px){
+    .heading{
+        font-size: 25px;
+    }
+    
+}

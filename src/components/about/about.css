@@ -1,0 +1,67 @@
+.about {
+  height: 100vh;
+  background-color: #678983;
+}
+.text {
+  padding-top: 75px;
+  width: 50%;
+  margin-left: 35%;
+  font-size: 30px;
+  font-family: "Raleway Dots", cursive;
+  color: #e6ddc4;
+  font-weight: bold;
+  line-height: 60px;
+}
+.contact {
+  width: 80%;
+  font-family: "Raleway Dots", cursive;
+  font-weight: bold;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15%;
+  color: #e6ddc4;
+}
+.contact a{
+  text-decoration: none;
+  color: #e6ddc4;
+}
+.contact p{
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.contact p:hover {
+    transform: skewX(-30deg);
+}
+
+@media screen and (max-width:1400px){
+  .text {
+    margin-left: 40%;
+    font-size: 20px;
+    line-height: 40px;
+  }
+}
+
+
+@media screen and (max-width:950px){
+  .about{
+    height: auto;
+  }
+  .text {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 150px;
+    font-size: 25px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width:650px){
+  .text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .contact{
+    flex-direction: column;
+  }
+}

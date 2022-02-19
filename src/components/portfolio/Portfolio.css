@@ -1,0 +1,90 @@
+.portfolio{
+    height: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+.right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.right h2{
+    text-align: center;
+    width: 100%;
+    color: #678983;
+    z-index: 1;
+}
+
+.left{
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+.left h2{
+    width: 100%;
+    color: #678983;
+}
+a{
+    text-decoration: none;
+}
+.right a, .left a{
+    filter: grayscale(1);
+    width: 52%;
+}
+img{
+    width: 100%;
+}
+a:hover{
+    filter: grayscale(0);
+    transition: 2s;
+    
+}
+h2{
+    font-size: 4em;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+h2:hover{
+    transform: skewX(-20deg);
+}
+
+
+@media screen and (max-width:1100px){
+    h2{
+        font-size: 3em;
+    }
+    
+}
+
+
+@media screen and (max-width:700px){
+    h2{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width:500px){
+    .portfolio{
+        padding-top: 50px;
+    }
+    h2{
+        display: none;
+    }
+    .right{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .left{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right a, .left a{
+        filter: grayscale(1);
+        width: 80%;
+    }
+    
+}

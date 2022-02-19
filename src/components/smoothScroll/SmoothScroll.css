@@ -1,0 +1,9 @@
+.parent{
+    height: 50vh;
+}
+
+@media screen and (max-width:740px){
+    .parent{
+        height: 50vh;
+    }
+}
