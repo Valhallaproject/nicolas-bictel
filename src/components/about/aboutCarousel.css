@@ -15,8 +15,8 @@
     cursor: grabbing;
   }
   .imgCarousel{
-    width: 500px;
-    height: 450px;
+    width: 450px;
+    height: 400px;
     filter: grayscale(1);
   }
   .cWrapper {

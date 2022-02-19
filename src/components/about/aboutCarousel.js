@@ -20,8 +20,8 @@ class aboutCarousel extends React.Component {
 
     const setting = {
       dragSpeed: 1.25,
-      itemWidth: 500,
-      itemHeight: 450,
+      itemWidth: 450,
+      itemHeight: 400,
       itemSideOffsets: 15,
     };
 
